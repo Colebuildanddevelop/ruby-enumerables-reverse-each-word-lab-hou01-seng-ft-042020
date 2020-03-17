@@ -3,6 +3,6 @@ def reverse_each_word(string)
   reversed = string_array.collect { |s|
     s.reverse
   }
-  reversed
+  reversed.join(" ")
 end
 puts reverse_each_word("Hello there, and how are you?")
